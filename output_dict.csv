@@ -1,0 +1,18 @@
+Model,Accuracy,Computational time
+KNeighbors,0.62,0.07
+NN,0.65,0.23
+SVC,0.68,0.28
+PCA+SVC,0.68,0.06
+KPCA+SVC,0.68,0.08
+QDA,0.71,0.01
+AdaBoost,0.72,0.12
+Lasso+LinearSVC,0.72,0.02
+Gaus_NaiveBayes,0.73,0.01
+Lasso,0.73,0.01
+Elasticnet,0.73,0.0
+LDA+SVC,0.74,0.02
+RF,0.74,1.77
+XGBoost,0.76,0.24
+RF+XGBoost,0.76,1.7
+MajorityVoteXGB,0.77,4.4
+ECLF_XGBoost,0.8,1.04
